@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PHPTravel]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Travel App Testcases(failed)">
+    <classes>
+      <class name="com.qa.tests.AgentPageTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="addAgentsTest" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.qa.tests.AgentPageTest -->
+    </classes>
+  </test> <!-- Travel App Testcases(failed) -->
+</suite> <!-- Failed suite [PHPTravel] -->

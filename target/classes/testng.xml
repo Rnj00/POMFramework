@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="PHPTravel">
+
+<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+	
+  <test name="Travel App Testcases">
+    <classes>
+      <class name="com.qa.tests.LoginPageTest"/>
+       <class name="com.qa.tests.HomePageTest"/>
+       <class name="com.qa.tests.AgentPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
