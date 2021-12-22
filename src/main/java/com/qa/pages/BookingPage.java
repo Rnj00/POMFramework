@@ -21,4 +21,6 @@ public class BookingPage extends TestBase {
 		return driver.getTitle();
 	}
 
+	
+	
 }
